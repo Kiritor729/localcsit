@@ -1,0 +1,15 @@
+<!--pages/issue/A/A.wxml-->
+<view class="main">
+  <view class="title"><text>1. 信用金申请</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打开叮当储物的</text><text style="color:#0000aa">小程序-个人中心-信用金</text><text>，即可申请退信用金</text></view>
+  <view class="line"></view>
+  <view class="title"><text>2. 信用金退还时间</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三到五个工作日退还，一般不超过第五个工作日，如超出五个工作日请联系叮当储物在线客服或微信公众号客服处理。(温馨提示工作人员星期天休息，不受理退款业务哦~)</text></view>
+  <view class="line"></view>
+  <view class="title"><text>3. 无法退还信用金</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①您的账户存在待支付订单②您有未完成的订单③你的账户存在异常订单</text></view>
+  <view class="line"></view>
+  <view class="title"><text>4. 信用金退到哪里</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退到原支付的账户(部分用户因原支付银行卡与微信解绑导致退还失败，重新绑卡即可退还)</text></view>
+  <view class="line"></view>
+</view>

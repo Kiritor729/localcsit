@@ -1,0 +1,91 @@
+<view class="bg">
+  <view class="head">
+    <block wx:if="{{!hasUserInfo}}">
+      <navigator url="/pages/login/login">
+        <view class="headIcon">
+          <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1612202038,2786585584&fm=26&gp=0.jpg" style="width:140rpx;height:140rpx;"></image>
+        </view>
+        <view class="login">请登录</view>
+      </navigator>
+    </block>
+    <block wx:else>
+      <view class="headIcon">
+          <image src="{{userInfo.avatarUrl}}" style="width:140rpx;height:140rpx;"></image>
+        </view>
+        <view class="login">{{userInfo.nickName}}</view>
+    </block>
+  </view>
+</view>
+
+<view class="hr"></view>
+<navigator class='item' open-type="navigateTo" url="/pages/wallet/wallet">
+  <view class="title">我的钱包</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class='item' open-type="switchTab" url="/pages/order/order">
+  <view class="title">我的订单</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class='item' open-type="navigateTo" url="/pages/priv/priv">
+  <view class="title">我的特权</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class='item' open-type="navigateTo" url="/pages/spec/spec">
+  <view class="title">优惠券</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<view class="hr"></view>
+
+<navigator class='item' open-type="navigateTo" url="/pages/settings/settings">
+  <view class="title">支付及通用设置</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class="item" open-type="navigateTo" url="/pages/issue/issue">
+  <view class="title">常见问题</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class="item" open-type="navigateTo" url="/pages/feedback/feedback">
+  <view class="title">维修及意见反馈</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class="item" open-type="navigateTo" url="/pages/about/about">
+  <view class="title">关于我们</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</navigator>
+
+<view class="hr"></view>

@@ -1,0 +1,30 @@
+<!--pages/issue/issue.wxml-->
+<view>
+<navigator class='item' open-type="navigateTo" url="/pages/issue/A/A">
+  <view class="title">1.信用金问题</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class="item" open-type="navigateTo" url="/pages/issue/2/2">
+  <view class="title">2.费用问题</view>
+  <view class="detail2">
+    <view>></view>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+<navigator class="item" open-type="navigateTo" url="/pages/issue/3/3">
+  <view class="title">3.使用问题</view>
+  <view class="detail2">
+    <view>></view>
+  </view>
+</navigator>
+
+<view class="line"></view>
+
+</view>

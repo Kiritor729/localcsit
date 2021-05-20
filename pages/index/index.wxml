@@ -1,0 +1,24 @@
+
+
+<swiper autoplay="true" interval="2000" circular="true" indicator-dots="true" >
+  <swiper-item><image mode="widthFix" src="/icon/1.png"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="/icon/2.png"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="/icon/3.png"></image></swiper-item>
+</swiper>
+<view class="content">  
+  <navigator open-type="navigateTo" url="/pages/info/info" class='td'>使用介绍</navigator> 
+  <navigator open-type="switchTab" url="/pages/order/order" class='td'>订单记录</navigator> 
+</view>
+ 
+<view class="content">  
+  <navigator open-type="navigateTo" url="/pages/wallet/wallet" class='td'>我的钱包</navigator> 
+  <navigator open-type="navigateTo" url="#" class='td'>客服中心</navigator>     
+</view>
+<view class="content">  
+  <navigator open-type="navigateTo" url="/pages/merge/merge" class='td3'>合并储物柜</navigator>     
+</view>
+<view class="content">
+  <text  class='td2' bindtap="scanCodeEvent">{{scanCode}}</text>
+</view>
+
+

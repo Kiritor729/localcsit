@@ -1,0 +1,12 @@
+<!--pages/issue/A/A.wxml-->
+<view class="main">
+  <view class="title"><text>1.如何收费</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;租球:信用金69元，租金1元/时，一天5元封顶储物: 1元/时，一天5元封顶月卡10元/张，季卡20元/张</text></view>
+  <view class="line"></view>
+  <view class="title"><text>2.订单结束还在计费</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若球已归还/物品已取出还在计费，您可以重新操作一遍或联系在线客服处理</text></view>
+  <view class="line"></view>
+  <view class="title"><text>3.余额问题</text></view>
+  <view class="detail"><text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您可以根据具体需求充值余额，叮当储物暂不支持余额退还业务</text></view>
+  <view class="line"></view>
+</view>

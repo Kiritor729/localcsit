@@ -1,0 +1,24 @@
+<!--pages/about/about.wxml-->
+<image class="login-img" src="/icon/1.png"></image>
+<view>
+  <view class="list-title">
+    <view class="left">主体信息:</view>
+    <view class="right">云起物联</view>
+  </view>
+  <view class="line"></view>
+  <view class="list-title">
+    <view class="left">服务类型：</view>
+    <view class="right">公共存储</view>
+  </view>
+  <view class="line"></view>
+  <view class="list-title">
+    <view class="left">客服电话:</view>
+    <view class="right">18040553187</view>
+  </view>
+  <view class="line"></view>
+  <view class="list-title">
+    <view class="left">所在区域:</view>
+    <view class="right">湖北武汉</view>
+  </view>
+  <view class="line"></view>
+</view>

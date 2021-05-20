@@ -1,0 +1,68 @@
+.bg {
+  height: 150px;
+  background-color:#28B463;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.headIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 15rpx;
+  justify-content: center;
+}
+
+.button {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.head image {
+  border-radius: 50%;
+}
+
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: "blod";
+}
+
+.detail2 {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+@font-face {
+  font-family: "blod";
+  src: url('https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf');
+}

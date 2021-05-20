@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#28B463",
+    "navigationBarTitleText": "我的订单",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  
+}
