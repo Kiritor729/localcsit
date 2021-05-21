@@ -21,4 +21,9 @@
     <view class="right">湖北武汉</view>
   </view>
   <view class="line"></view>
+  <view class="list-title">
+    <view class="left">联系邮箱:</view>
+    <view class="right">835029209@qq.com</view>
+  </view>
+  <view class="line"></view>
 </view>
