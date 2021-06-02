@@ -1,3 +1,2 @@
 <!--pages/info/info.wxml-->
-<text>pages/info/info.wxml</text>
 <web-view src="https://mp.weixin.qq.com/s/yFs0wjt8Q7qkK8KFb0a5QQ">123</web-view>

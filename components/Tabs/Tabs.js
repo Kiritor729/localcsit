@@ -44,6 +44,16 @@ Component({
       this.setData({
         tabs
       })
+    },
+    function(){
+      var detail={
+        hidden:false,
+        tabs:this.data.tabs
+      }
+      var option={
+        
+      }
+      this.triggerEvent('getTabs',detail,option)
     }
   }
 })

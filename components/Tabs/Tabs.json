@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "compomnet":true,
+  "usingComponents": {
+    "tabs":"/components/Tabs/Tabs"
+  }
 }

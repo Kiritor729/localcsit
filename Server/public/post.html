@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+</head>
+<body>
+    <p><input type="text" id="username"></p>
+    <p><input type="text" id="age"></p>
+    <p><input type="button" value="提交" id="btn"></p>
+    <script type="text/javascript">
+    var btn = document.getElementById('btn');
+    var username = document.getElementById('username');
+    var age = document.getElementById('age');
+    btn.onclick = function() {
+        var xhr = new XMLHttpRequest();
+        var nameValue = username.value;
+        var ageValue = age.value;
+        // alert(nameValue);
+        // alert(ageValue);
+        var params = 'username=' + nameValue + '&age=' + ageValue;
+        xhr.open('post', 'http://localhost:3000/post');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(params);
+        xhr.onload = function() {
+            console.log(xhr.responseText);
+        }
+    }
+    </script>
+</body>
+</html>

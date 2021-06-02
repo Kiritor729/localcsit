@@ -3,16 +3,59 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const http = require('http');
 const https = require('https');
+const mssql = require('mssql');
 
 const app = express();
+
+const msconfig = {
+    server: '127.0.0.1',
+    user: 'sa',
+    password: 'root',
+    database: 'CSIT',
+    port: 1433,
+    options: {
+        encrypt: false
+    },
+    pool: {
+        min: 0,
+        max: 10,
+        idleTimeoutMillis: 3000
+    }
+}
+
+var db = function(sqlstr) {
+    return mssql.connect(msconfig).then(function() {
+        return mssql.query(sqlstr);
+    }).then(function(result) {
+        mssql.close();
+        return result;
+    }).catch(function(error) {
+        mssql.close();
+    })
+}
+
+var addUser = "insert into t_user (openid,money) values ('"+openid+"',"+money+")";
+var addOrder = "insert into t_order (userid,orderid,location,store,starttime,endtime,duration,charges,payed,state) values ("+userid+",'"+orderid+"','"+location+"','"+store+"','"+starttime+"','"+endtime+"','"+duration+"',"+charges+","+payed+","+state+")";
+var sqlUserinfo = "select * from t_user where openid='" + openid + "'";
+var sqlOrderinfo = "select * form t_order whrer userid=" + userid;
+
+db(sqlUserinfo).then(function(Userinfo) {
+    console.log(Userinfo);
+})
+db(sqlOrderinfo).then(function(Orderinfo) {
+    console.log(Orderinfo);
+})
+
 var session_key='';
 
+app.use(bodyParser.urlencoded());
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname,'public')))
 app.get('/first', (req, res) => {
     res.send('Hello Hello');
 })
 app.get('/responseData', (req, res) => {
-    res.send({"openid":"kasudfbgfgknf"});
+    res.send({'openid':'kasudfbgfgknf'});
 })
 app.get('/weixin', (req, res) => {
     console.log(req.query);
@@ -49,6 +92,12 @@ app.post('/wxget', (req, res) => {
 })
 app.get('/get', (req, res) => {
     res.send(req.query);
+})
+app.post('/post', (req, res) => {
+    res.send(req.body);
+})
+app.post('/json', (req, res) => {
+    res.send(req.body);
 })
 app.listen(3000);
 console.log('服务器启动成功')
