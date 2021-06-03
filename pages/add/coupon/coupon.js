@@ -1,8 +1,5 @@
-// pages/feedback/feedback.js
+// pages/add/coupon/coupon.js
 Page({
-  onTapDayWeather(){
-    wx.showToast({url:'/page/wallet/1/1'})
-  },
 
   /**
    * 页面的初始数据
@@ -10,27 +7,7 @@ Page({
   data: {
 
   },
-    data: {
-      title: '',
-      content: ''
-    },
-    inputTitle: function (e) {
-      this.setData({
-        title: e.detail.value
-      })
-    },
-    inputContent: function (e) {
-      this.setData({
-        content: e.detail.value
-      })
-    },
-    save: function (e) {
-      var title = this.data.title;
-      var content = this.data.content ;
-      wx.navigateTo({
-        url: '/pages/wallet/1/1',
-      })
-    },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -85,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  
+  onmoney: function(opotions){
+    wx.navigateTo({
+      url: '/pages/wallet/1/1'//因为我的是本目录，路径就是这样，把路径写对就能实现跳转了
+    })
+  },
 })

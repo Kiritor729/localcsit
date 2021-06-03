@@ -12,10 +12,10 @@
  
 <view class="content">  
   <navigator open-type="navigateTo" url="/pages/wallet/wallet" class='td'>我的钱包</navigator> 
-  <navigator open-type="navigateTo" url="#" class='td'>客服中心</navigator>     
+  <navigator open-type="navigateTo" url="/pages/add/customer service/customer service" class='td'>客服中心</navigator>     
 </view>
 <view class="content">  
-  <navigator open-type="navigateTo" url="/pages/merge/merge" class='td3'>合并储物柜</navigator>     
+  <navigator open-type="navigateTo" url="/pages/wallet/1/1" class='td3'>合并储物柜</navigator>     
 </view>
 <view class="content">
   <text  class='td2' bindtap="scanCodeEvent">{{scanCode}}</text>

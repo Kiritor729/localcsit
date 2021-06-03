@@ -36,16 +36,9 @@
 
 <view class="line"></view>
 
-<navigator class='item' open-type="navigateTo" url="/pages/priv/priv">
-  <view class="title">我的特权</view>
-  <view class="detail2">
-    <text>></text>
-  </view>
-</navigator>
 
-<view class="line"></view>
 
-<navigator class='item' open-type="navigateTo" url="/pages/spec/spec">
+<navigator class='item' open-type="navigateTo" url="/pages/add/coupon/coupon">
   <view class="title">优惠券</view>
   <view class="detail2">
     <text>></text>
@@ -53,15 +46,6 @@
 </navigator>
 
 <view class="hr"></view>
-
-<navigator class='item' open-type="navigateTo" url="/pages/settings/settings">
-  <view class="title">支付及通用设置</view>
-  <view class="detail2">
-    <text> ></text>
-  </view>
-</navigator>
-
-<view class="line"></view>
 
 <navigator class="item" open-type="navigateTo" url="/pages/issue/issue">
   <view class="title">常见问题</view>

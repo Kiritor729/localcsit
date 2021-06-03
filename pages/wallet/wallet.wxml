@@ -1,2 +1,29 @@
 <!--pages/wallet/wallet.wxml-->
-<text>pages/wallet/wallet.wxml</text>
+<view>
+<navigator class='item' open-type="navigateTo" url="/pages/wallet/1/1">
+  <view class="title">1.充值</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+<navigator class='item' open-type="navigateTo" url="/pages/wallet/1/1">
+  <view class="title">2.信用金管理</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<navigator class='item' open-type="navigateTo" url="/pages/wallet/1/1">
+  <view class="title">2.月卡购买</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+<navigator class='item' open-type="switchTab" url="/pages/order/order">
+  <view class="title">4.订单管理</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+</view>

@@ -1,8 +1,5 @@
-// pages/feedback/feedback.js
+// pages/add/customer service/customer service.js
 Page({
-  onTapDayWeather(){
-    wx.showToast({url:'/page/wallet/1/1'})
-  },
 
   /**
    * 页面的初始数据
@@ -10,27 +7,7 @@ Page({
   data: {
 
   },
-    data: {
-      title: '',
-      content: ''
-    },
-    inputTitle: function (e) {
-      this.setData({
-        title: e.detail.value
-      })
-    },
-    inputContent: function (e) {
-      this.setData({
-        content: e.detail.value
-      })
-    },
-    save: function (e) {
-      var title = this.data.title;
-      var content = this.data.content ;
-      wx.navigateTo({
-        url: '/pages/wallet/1/1',
-      })
-    },
+
   /**
    * 生命周期函数--监听页面加载
    */

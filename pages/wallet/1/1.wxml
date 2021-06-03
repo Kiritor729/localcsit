@@ -1,0 +1,6 @@
+<!--pages/wallet/1/1.wxml-->
+
+<view class='imagesize'>
+  <image src="/icon/缺少服务器.png" class='in-image'   >
+  </image>
+</view>

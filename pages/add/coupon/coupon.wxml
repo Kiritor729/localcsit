@@ -1,0 +1,7 @@
+<!--pages/add/coupon/coupon.wxml-->
+
+<view class="meiti">
+      <image bindtap='onmoney'
+      src="/icon/3.png" 
+      style="width:100%;"></image>
+    </view>

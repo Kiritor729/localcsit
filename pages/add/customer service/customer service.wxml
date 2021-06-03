@@ -1,0 +1,20 @@
+<!--pages/add/customer service/customer service.wxml-->
+
+  <view>
+    <view class="line"></view>
+  <view class="list-title">
+    <view class="left">客服电话:</view>
+    <view class="right">18040553187</view>
+  </view>
+  <view class="line"></view>
+
+  <navigator class='item' open-type="navigateTo" url="/pages/wallet/1/1">
+    <view class="list-title">
+    <view class="left">在线客服</view>
+  </view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</navigator>
+
+</view>

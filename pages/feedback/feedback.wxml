@@ -1,2 +1,7 @@
 <!--pages/feedback/feedback.wxml-->
-<text>pages/feedback/feedback.wxml</text>
+<view>
+  <input type="text" placeholder="请输入标题" placeholder-class="placeholder" bindinput="inputTitle" />
+  <view class="line"></view>
+  <textarea placeholder="请输入内容" placeholder-class="placeholder" bindinput="inputContent" />
+  <button bindtap="save" >发送</button>
+</view>

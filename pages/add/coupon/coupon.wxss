@@ -1,0 +1,6 @@
+.lecturer_head{
+  background: no-repeat center 0rpx;
+  background-size: 173rpx 173rpx;
+  width: 173rpx;
+  height: 173rpx;
+}

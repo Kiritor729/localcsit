@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/order/order",
     "pages/index/index",
+    "pages/order/order",
     
     "pages/mine/mine",
     "pages/logs/logs",
     "components/Tabs/Tabs",
-    "pages/login/login",
+    
     "pages/info/info",
     "pages/wallet/wallet",
     "pages/merge/merge",
@@ -17,7 +17,9 @@
     "pages/settings/settings",
     "pages/issue/2/2",
     "pages/issue/3/3",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/login/login",
+    "pages/add/coupon/coupon"
   ],
   "window": {
     "backgroundTextStyle": "light",
