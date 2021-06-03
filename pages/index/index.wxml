@@ -11,11 +11,11 @@
 </view>
  
 <view class="content">  
-  <navigator open-type="navigateTo" url="/pages/wallet/wallet" class='td' style="width: 305rpx; height: 141rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">我的钱包</navigator> 
-  <navigator open-type="navigateTo" url="/pages/add/customer service/customer service" class='td' style="width: 305rpx; height: 141rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">客服中心</navigator>     
+  <navigator open-type="navigateTo" url="/pages/wallet/wallet" class='td'>我的钱包</navigator> 
+  <navigator open-type="navigateTo" url="/pages/add/customer service/customer service" class='td'>客服中心</navigator>     
 </view>
 <view class="content">  
-  <navigator open-type="navigateTo" url="/pages/wallet/1/1" class='td3' style="width: 615rpx; height: 141rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">合并储物柜</navigator>     
+  <navigator open-type="navigateTo" url="/pages/wallet/1/1" class='td3'>合并储物柜</navigator>     
 </view>
 <view class="content">
   <text  class='td2' bindtap="scanCodeEvent" style="position: fixed; left: 57rpx; top: 926rpx; width: 650rpx; height: 141rpx; display: flex; box-sizing: border-box">{{scanCode}}</text>

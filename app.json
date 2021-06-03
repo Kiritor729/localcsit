@@ -6,7 +6,6 @@
     "pages/mine/mine",
     "pages/logs/logs",
     "components/Tabs/Tabs",
-    
     "pages/info/info",
     "pages/wallet/wallet",
     "pages/merge/merge",
